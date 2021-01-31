@@ -176,7 +176,9 @@
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="VoteManagement.aspx" />
     <Content Include="voting.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>

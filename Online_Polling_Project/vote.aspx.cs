@@ -160,7 +160,8 @@ namespace Online_Polling_Project
                         //Response.Write(DateTime.UtcNow.Date.ToString("d").Substring(5,2));
                         int nowDay = Int32.Parse(DateTime.UtcNow.Date.ToString("d").Substring(8, 2) );
                         int nowMonth = Int32.Parse(DateTime.UtcNow.Date.ToString("d").Substring(5, 2));
-                        if((nowMonth>month &&nowDay>day) || (nowMonth == month && nowDay > day))
+                        
+                        if ((nowMonth>month &&nowDay>day) || (nowMonth == month && nowDay > day))
                         {
                             continue;
                         }
